@@ -8,7 +8,7 @@
     <name>iNamik Text Tables for Java</name>
     <url>https://github.com/iNamik/java_text_tables</url>
 
-    <groupId>com.inamik.text.tables</groupId>
+    <groupId>com.github.inamik.text.tables</groupId>
     <artifactId>inamik-text-tables</artifactId>
     <version>1.0-SNAPSHOT</version>
 
