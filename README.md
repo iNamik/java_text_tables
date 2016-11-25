@@ -179,6 +179,29 @@ The above code should result in the following output:
     ╚══════════╩══════════╩══════════╝
 *NOTE* Spaces between Border Character are due to HTML styling and would not appear in a terminal
 
+## Importing Into Your Project
+
+### Snapshot
+
+    <repositories>
+      <repository>
+        <id>oss-sonatype</id>
+        <name>oss-sonatype</name>
+        <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+      </repository>
+    </repositories>
+
+    <dependencies>
+      <dependency>
+        <groupId>com.github.inamik.text.tables</groupId>
+        <artifactId>inamik-text-tables</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+
 ## Contributing
 
 1. Fork it!
